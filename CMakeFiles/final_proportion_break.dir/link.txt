@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -std=c++11 -g    CMakeFiles/final_proportion_break.dir/final_proportion_break.cpp.o  -o final_proportion_break 

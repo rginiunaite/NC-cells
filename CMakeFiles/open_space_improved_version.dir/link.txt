@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -std=c++11 -g    CMakeFiles/open_space_improved_version.dir/open_space_improved_version.cpp.o  -o open_space_improved_version 

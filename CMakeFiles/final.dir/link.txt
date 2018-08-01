@@ -1,0 +1,1 @@
+/usr/bin/c++   -fopenmp -std=c++11 -g    CMakeFiles/final.dir/FINAL_BASE_CODE.cpp.o  -o final 
