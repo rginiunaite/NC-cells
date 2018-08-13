@@ -39,10 +39,10 @@ include_directories(src ${INCLUDES})
 
 
 add_executable(NC-model NC-model.cpp)
-#add_executable(NC-model-tunneling NC-model-tunneling.cpp)
+add_executable(NC-model-tunneling NC-model-tunneling.cpp)
 
 
 target_link_libraries(NC-model ${LIBRARIES})
-#target_link_libraries(NC-model-tunneling ${LIBRARIES})
+target_link_libraries(NC-model-tunneling ${LIBRARIES})
 
 
