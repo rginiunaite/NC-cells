@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++11 -g   CMakeFiles/fixed_.dir/check.cpp.o  -o fixed_ 

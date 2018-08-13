@@ -1,1 +1,0 @@
-/usr/bin/c++  -std=c++11 -g   CMakeFiles/combination_touching.dir/touching.cpp.o  -o combination_touching 

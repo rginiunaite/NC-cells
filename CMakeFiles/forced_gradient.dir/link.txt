@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -std=c++11 -g    CMakeFiles/forced_gradient.dir/forced_gradient.cpp.o  -o forced_gradient 

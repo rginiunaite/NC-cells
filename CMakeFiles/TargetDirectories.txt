@@ -1,3 +1,0 @@
-/home/rasa/Documents/NC-cells/CMakeFiles/edit_cache.dir
-/home/rasa/Documents/NC-cells/CMakeFiles/rebuild_cache.dir
-/home/rasa/Documents/NC-cells/CMakeFiles/NC-model-tunneling.dir

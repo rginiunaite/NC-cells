@@ -1,1 +1,0 @@
-/usr/bin/c++   -fopenmp -std=c++11 -g    CMakeFiles/touching.dir/touching.cpp.o  -o touching 
