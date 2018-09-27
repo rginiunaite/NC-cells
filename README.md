@@ -1,10 +1,29 @@
 # NC-cells
 
-Introduction 
+# About
 
-This code simulates the migration of neural crest cells. There are two phenotypes of cells, namely leaders and followers. The main difference between these two cell phenotypes is the mechanism driving motility and invasion: the leaders follow a cell-induced gradient of a chemoattractant, while the trailing cells follow the leaders. We use a two-dimensional individual-based model to represent cells and a continuum reaction-diffusion model for the dynamics of the chemoattractant. We assume two guidance mechansisms from leaders to followers: by contacts or via creation of tunnels. 
+This is the supplementary code repository for the paper:
 
-We provide two versions of the code: NC-model, where the interactions between the cells in NC-model are only by contact; NC-model-tunnelling where interactions are by contact and tunnelling mechanisms
+Rebecca McLennan, Mary C. McKinney, Jessica M. Teddy, Jason A. Morrison, Jennifer C. Kasemeier-Kulesa, Dennis A. Ridenour, Craig Manthe, Rasa Giniunaite, Martin Robinson Ruth E. Baker, Philip K. Maini, Paul M. Kulesa, "Aquaporin-1 promotes cranial neural crest migration by stabilizing filopodia and influencing extracellular matrix degradation"
 
+# Pre-requisites
+Requires a C++14 compiler, Boost v1.65, Eigen v3, and CMake v2.8.
 
-The guidelines how to install Aboria can be found https://martinjrobins.github.io/Aboria/aboria/installation_and_getting_started.html.
+For example, these can be installed on Ubuntu 18.04 using apt:
+
+$ sudo apt install build-essential libboost-all-dev cmake libeigen3-dev
+
+# Installation
+First clone this repository:
+
+$ git clone --recurse-submodules https://github.com/rginiunaite/NC-cells.git
+Then create a build directory build under the main source directory:
+
+$ cd NC-cells
+$ mkdir build
+$ cd build
+Then configure and compile the C++ module
+
+$ cmake ..
+$ make
+
