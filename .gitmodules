@@ -1,3 +1,3 @@
-[submodule "Aboria1"]
-	path = Aboria1
-	url = https://github.com/martinjrobins/Aboria
+[submodule "Aboria"]
+  path = Aboria
+  url = https://github.com/martinjrobins/Aboria
